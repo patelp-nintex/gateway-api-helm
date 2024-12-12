@@ -1,0 +1,16 @@
+apiVersion: v2
+name: gateway-api
+description: A Helm chart for gateway-api from (standard-install -replace "-install", "") release channel
+type: application
+version: v1.2.1
+
+maintainers:
+  - name: The Platform Team
+    email: platform@nintex.com
+
+sources:
+  - https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.1/standard-install.yaml
+
+annotations:
+  release-channel: standard-install
+  gateway-api-version: v1.2.1
